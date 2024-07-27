@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>view/qml/main.qml</file>
+        <file>view/qml/ImgList.qml</file>
+        <file>res/next-btn.svg</file>
+        <file>res/last-btn.svg</file>
+        <file>view/qml/Components/IconButton.qml</file>
+        <file>view/qml/Components/IndexSelector.qml</file>
+    </qresource>
+</RCC>
