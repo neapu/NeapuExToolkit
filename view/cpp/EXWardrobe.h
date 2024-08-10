@@ -8,7 +8,7 @@
 #include <QQmlEngine>
 
 #include "NPKImageListModel.h"
-#include "../npk/NPKHandler.h"
+#include "NPKHandler.h"
 
 namespace neapu_ex_view {
 

@@ -3,7 +3,7 @@
 //
 
 #include "NPKImageListModel.h"
-#include "../npk/NPKImageHandler.h"
+#include "NPKImageHandler.h"
 
 namespace neapu_ex_view {
 void NPKImageListModel::setImages(const std::vector<std::shared_ptr<neapu_ex_npk::NPKImageHandler>>& images)

@@ -61,11 +61,15 @@ set_target_properties(NeapuExToolkit PROPERTIES
 
 )
 
-add_subdirectory(first_party/logger)
-target_link_libraries(NeapuExToolkit PRIVATE Logger)
+add_compile_definitions(ENABLE_OLD_STYLE_LOG)
+
+include_directories(first_party/logger)
+include_directories(first_party/neapu_npk)
+add_subdirectory(first_party)
+
+target_link_libraries(NeapuExToolkit PRIVATE logger)
 include_directories(NeapuExToolkit PRIVATE first_party/logger)
 
-add_subdirectory(npk)
 target_link_libraries(NeapuExToolkit PRIVATE npk)
 
 add_subdirectory(view/cpp)

@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.20)
+project(first_party)
+add_subdirectory(logger)
+set(LOGGER_INCLUDE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/first_party/logger)
+add_subdirectory(neapu_npk)

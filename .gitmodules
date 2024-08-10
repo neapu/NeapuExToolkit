@@ -2,3 +2,7 @@
 	path = first_party/logger
 	url = https://github.com/neapu/logger.git
 	branch = master
+[submodule "first_party/neapu_npk"]
+	path = first_party/neapu_npk
+	url = git@github.com:neapu/neapu_npk.git
+	branch = master

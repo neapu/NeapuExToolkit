@@ -7,9 +7,8 @@
 #include <QImage>
 #include <QUuid>
 
-#include "logger.h"
-#include "../npk/NPKImageHandler.h"
-#include "../npk/NPKPublic.h"
+#include "NPKImageHandler.h"
+#include "NPKPublic.h"
 #include "NPKMatrixConvertor.h"
 
 namespace neapu_ex_view {

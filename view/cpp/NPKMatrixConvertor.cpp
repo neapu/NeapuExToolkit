@@ -3,7 +3,7 @@
 //
 
 #include "NPKMatrixConvertor.h"
-#include "../npk/NPKMatrix.h"
+#include "NPKMatrix.h"
 #include <QDebug>
 
 namespace neapu_ex_view {
